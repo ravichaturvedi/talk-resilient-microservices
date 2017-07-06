@@ -9,8 +9,7 @@ public class EchoService {
 
   public static void main(String[] args) throws Exception {
     get("/echo", (req, res) -> {
-      // Sleeping for random time -- max 500 millisec.
-      int sleepTimeInMillisec = random.nextInt(500);
+      int sleepTimeInMillisec = 300;
       System.out.println("######## Sleeping for timeInMillisec: " + sleepTimeInMillisec);
       Thread.sleep(sleepTimeInMillisec);
 
