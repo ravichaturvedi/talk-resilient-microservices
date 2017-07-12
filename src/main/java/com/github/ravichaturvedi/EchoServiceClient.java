@@ -4,7 +4,7 @@ package com.github.ravichaturvedi;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 
-import static io.retrier.Retry.*;
+import static io.github.ravichaturvedi.retrier.Retry.*;
 
 public class EchoServiceClient {
 
